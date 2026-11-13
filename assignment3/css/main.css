@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color: #fbe07f;
+    padding: 20px 5%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+
+.navbar{
+background-color: white;
+border: 2px solid black;
+border-radius: 18px;
+padding: 15px 20px;
+position: sticky;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar h2{
+    font-size: 30px;
+    color: black;
+}
+
+.navbar h2 span{
+    color: #e76f51;
+}
+
+.links{
+
+    display: flex;
+    gap: 25px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.navbar button{
+    background-color: #f5b942;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.trending{
+    position: relative;
+}
+
+.text-trending{
+    background-color: black;
+    color: white;
+    width: auto;
+   display: inline-block;
+    text-align: center;
+   position: absolute;
+   top: 65px;
+    padding: 15px;
+    transform: rotate(-4deg);
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 0px black;
+
+}
+
+
+
+.text h1{
+    padding-top: 140px;
+    font-weight: 900;
+    font-size: 50px;
+  line-height: 1.1;
+  color: #171a2b;
+    
+}
+.text h1 span{
+    color: #e84b64;
+}
+
+.text h1 b{
+    color: #2388df;
+}
+
+.text p{
+background-color: white;
+width: auto;
+border: 2px solid black;
+padding: 15px;
+margin-top: 25px;
+line-height: 1.5;
+font-size: 17px;
+max-width: 430px;
+}
+.text button{
+
+border: 1px solid black;
+padding: 15px 50px;
+margin-top: 20px;
+
+}
+
+.text button  button-1{
+    background-color: white;
+    color: black;
+}
+
+
+.text button button-2{
+    background-color: black;
+    color: white;
+
+}
+
+.image{
+width: 45%;
+position: relative;
+
+}
+
+.image img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border: 3px solid #171a2b;
+
+   
+}
